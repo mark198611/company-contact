@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F4F3F5 ;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.header {
+  background-color: #6200EA ;
+  text-align:  right;
+  padding: 2rem;
+}
+
+.header span {
+  font: normal normal bold 12px/15px Montserrat;
+  letter-spacing: 2.4px;
+  color: #F4F3F5;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 2rem;
+}
+
+.whole {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem 2rem 2rem 8rem;
+}
+
+
+
+.contact {
+  width: 70%;
+  padding: 2rem 2rem 0 2rem;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+}
+
+.contact h1 {
+  font: normal normal bold 40px/50px Montserrat;
+  color: #211138;
+  padding: 1rem 1rem 1rem 0;
+}
+
+.contact p {
+  font: normal normal normal 20px/30px Montserrat;
+  letter-spacing: 0px;
+  color: #211138;
+}
+
+.contact form {
+  padding: 1.5rem 1.5rem 1.5rem 0;
+}
+
+.contact input {
+  display: block;
+}
+
+.map {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 2rem 2rem 2rem 10rem;
+  border-radius: 15px;
+  width: 40vw;
+}
+
+iframe {
+  width: 70%;
+  
+    
+}
+
+.message {
+  padding: 0 10rem 4rem 0; 
+  background: #F4F3F5 0% 0% no-repeat padding-box;
+}
+
+.input {
+  background: #F4F3F5 0% 0% no-repeat padding-box;
+  padding: .5rem 10rem .5rem 0;
+}
+
+.input2 {
+  background: #F4F3F5 0% 0% no-repeat padding-box;
+  padding: .5rem 10rem .5rem 0;
+}
+
+.submit {
+  background: #6200EA 0% 0% no-repeat padding-box;
+  border: 1px solid #6200EA;
+  border-radius: 24px;
+  text-align: center;
+  font-size: 10px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding: .5rem 8rem .5rem 8rem;
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+  
+}
+
+
+.image {
+  padding: 2rem;
+  
+}
+
+.address {
+  padding: 2rem 2rem 10rem 2rem;
+}
+
+.address span {
+  text-align: left;
+  font: normal normal bold 12px/15px Montserrat;
+  letter-spacing: 2.4px;
+  color: #6200EA;
+  text-transform: uppercase;
+}
+
+.address p {
+  text-align: left;
+  font: normal normal normal 14px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #211138;
+  padding: 1rem 0;
+}
+
+.icon {
+  padding: 2rem 0;
+}
+
+.email {
+  display: block;
+  text-decoration: none;
+  padding: 1rem 0;
+  text-align: left;
+  font: normal normal bold 12px/15px Montserrat;
+  letter-spacing: 2.4px;
+  color: #6200EA;
+  text-transform: uppercase;
+}
+
+ div i {
+  padding: 0 1rem 0 0; 
+}
+
+.footer {
+  background: #211138;
+  padding: 2rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+}
+
+.footer span {
+  text-align: center;
+  font: normal normal bold 12px/15px Montserrat;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  color: #F4F3F5;
+}
+
+.footer a {
+  color: #6200EA;
+  text-decoration: none;
+}
